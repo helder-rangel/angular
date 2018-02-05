@@ -15,6 +15,8 @@ npm install -g typescript
 
 npm install -g @angular/cli
 
+Ler a documentação pode tornar seu trabalho mais produto. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
+
 Para o curso de Loiane Groner você vai precisar instalar Bootstrap, Materialize, Hammer e JQuery. Logo a seguir sugiro que você faça algo diferente para outros projetos que envolvam Bootstrap, mas para o curso de Loiane.training execute os seguintes comandos no terminal de seu sistema opercional:
 
 npm install materialize-css --save
