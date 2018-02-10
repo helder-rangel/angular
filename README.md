@@ -1,5 +1,6 @@
 # angular
 Projeto Angular para a Disciplina Linguagem de Script
+<img src="https://angular.io/assets/images/logos/angular/angular.png">
 
 Foi implementada uma Single Page Aplication (SPA) utilizando o framework Angular, resultado de parceria entre a Google e Microsoft. O projeto é baseado nos cursos on-line sobre Angular feitos nos sites loiane.training e udemy.com, entre dezembro de 2017 e fevereiro de 2018.
 
@@ -16,6 +17,8 @@ npm install -g typescript
 npm install -g @angular/cli
 
 Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
+
+<img src="http://helderrangel.com.br/imagens/visaogeral.png">
 
 Para o curso de Loiane Groner você vai precisar instalar Bootstrap, Materialize, Hammer e JQuery. Logo a seguir sugiro que você faça algo diferente para outros projetos que envolvam Bootstrap, mas para o curso de Loiane.training execute os seguintes comandos no terminal de seu sistema opercional:
 
