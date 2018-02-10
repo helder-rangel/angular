@@ -71,6 +71,7 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 
 Os módulos ajudam a organizar uma aplicação por diretórios. O módulo raiz app.module.ts faz referências aos componentes, rotas, serviços bem como dependências de diversos módulos Angular. O módulo possui um template html que mostra os serviços e/ou conteúdo para o usuário final. Já os componentes podem reunir classes, referência ao template ao CSS utilizado e à identificação do componente, que será usada no template.
 
+<img src="http://helderrangel.com.br/imagens/thesrcfolder.png">
 - O arquivo `README.md` deve ser o guia de seu projeto, e deve possuir: a `descrição do projeto`, os `requisitos mínimos` e `processo de instalação`, `getting started`, `descrição das funcionalidades` e `contato`;
   - Os arquivos e diretórios devem estar bem organizados;
   - E os arquivos devem sempre que possível possuir comentário e boa legibilidade.
