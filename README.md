@@ -20,8 +20,8 @@ Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os
 
 <img src="http://helderrangel.com.br/imagens/visaogeral.png">
 
-<href=
-"https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy/a>
+<a href=
+"https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy</a>
 
 Para o curso de Loiane Groner você vai precisar instalar Bootstrap, Materialize, Hammer e JQuery. Logo a seguir sugiro que você faça algo diferente para outros projetos que envolvam Bootstrap, mas para o curso de Loiane.training execute os seguintes comandos no terminal de seu sistema opercional:
 
