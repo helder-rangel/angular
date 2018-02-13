@@ -16,7 +16,6 @@ npm install -g typescript
 
 npm install -g @angular/cli
 
-Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
 
 <img src="http://helderrangel.com.br/imagens/visaogeral.png">
 
@@ -62,8 +61,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap'
 })
 export class AppModule {
 }
-
-
+Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
 
 Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar com uma letra. Em seguida, entre no diretório nomedoprojeto para criar ali componentes, diretivas, serviços, utilizando o Angular cli:
 
@@ -72,16 +70,19 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 - para criar serviço: ng g s nomedoservico
 - para criar diretiva: ng g d nomedadiretiva ????
 
-Os módulos ajudam a organizar uma aplicação por diretórios. O módulo raiz app.module.ts faz referências aos componentes, rotas, serviços bem como dependências de diversos módulos Angular. O módulo possui um template html que mostra os serviços e/ou conteúdo para o usuário final. Já os componentes podem reunir classes, referência ao template ao CSS utilizado e à identificação do componente, que será usada no template.
+Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
+
+Os módulos ajudam a organizar uma aplicação por diretórios e no reuso de códigos. O módulo raiz app.module.ts faz referências aos componentes, rotas, serviços bem como dependências de diversos módulos Angular. O módulo possui um template html que mostra os serviços e/ou conteúdo para o usuário final. Já os componentes podem reunir classes, referência ao template ao CSS utilizado e à identificação do componente, que será usada no template.
 
 <img src="http://helderrangel.com.br/imagens/thesrcfolder.png">
 - O arquivo `README.md` deve ser o guia de seu projeto, e deve possuir: a `descrição do projeto`, os `requisitos mínimos` e `processo de instalação`, `getting started`, `descrição das funcionalidades` e `contato`;
   - Os arquivos e diretórios devem estar bem organizados;
   - E os arquivos devem sempre que possível possuir comentário e boa legibilidade.
 * Utilização de temas (90%):
-  - *JS Core*:
+
+- *JS Core*:
     * Uso de programação funcional;
-    * Validação por meio de RegExp.
+    * Val e no reuso de códigosidação por meio de RegExp.
   - *JS W3C*:
     * Criação de componentes dinâmicos;
     * Uso de AJAX e JSON.
