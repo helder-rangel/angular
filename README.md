@@ -72,20 +72,27 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 
 Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
 
-Os módulos ajudam a organizar uma aplicação por diretórios e no reuso de códigos. O módulo raiz app.module.ts faz referências aos componentes, rotas, serviços bem como dependências de diversos módulos Angular. O módulo possui um template html que mostra os serviços e/ou conteúdo para o usuário final. Já os componentes podem reunir classes, referência ao template ao CSS utilizado e à identificação do componente, que será usada no template.
+Two-way Data binding
+Injeção de Dependências
+Criação de diretivas
+Modularização e reuso (Controllers, Services e Filters)
+Testabilidade
 
-<img src="http://helderrangel.com.br/imagens/thesrcfolder.png">
-- O arquivo `README.md` deve ser o guia de seu projeto, e deve possuir: a `descrição do projeto`, os `requisitos mínimos` e `processo de instalação`, `getting started`, `descrição das funcionalidades` e `contato`;
-  - Os arquivos e diretórios devem estar bem organizados;
-  - E os arquivos devem sempre que possível possuir comentário e boa legibilidade.
-* Utilização de temas (90%):
 
-- *JS Core*:
-    * Uso de programação funcional;
-    * Val e no reuso de códigosidação por meio de RegExp.
-  - *JS W3C*:
-    * Criação de componentes dinâmicos;
-    * Uso de AJAX e JSON.
-  - *JS Packages*:
-    * Uso de extensões no JS (framework ou bibliotecas), contudo, será exigido a utilização de no mínimo duas extensões inéditas.
-    * Webpack e Babel.js
+Two-way Data binding: É um recurso mágico do mesmo que permite a atualização em realtime que é feito através do objeto $scope
+ , qualquer interação na view será refletida no modelo e assim sucessivamente
+
+Injeção de dependência: Sua função é de separar responsabilidades através da aplicação service , para que a função fique
+bem definida , de fácil manutenção e testáveis.
+
+Criação de diretivas: Permite criar diversas indicações como ele próprio é uma extensão do html por exemplo
+
+Modularização e reuso: Usando controllers , Services e Filters é possível transformar o resultado de uma expressão,
+aplicando algum tipo de formatação ou restrição de dados.
+Exemplo: Adicionar um controlador geral que restringe um outro controlador , sendo útil para códigos complexos , facilitando
+sua manutenção.
+
+Testabilidade: Angular é testado por um framework chamado jasmine
+Daria para escrever um artigo só para os detalhes da implementação
+de testes com Jasmine e suas diferentes abordagens de cobertura dentro de aplicações com o Angular.
+
