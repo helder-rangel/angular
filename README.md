@@ -95,4 +95,6 @@ Testabilidade: Angular é testado por um framework chamado jasmine
 Daria para escrever um artigo só para os detalhes da implementação
 de testes com Jasmine e suas diferentes abordagens de cobertura dentro de aplicações com o Angular.
 
+
+
 Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
