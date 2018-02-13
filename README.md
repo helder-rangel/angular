@@ -70,7 +70,7 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 - para criar serviço: ng g s nomedoservico
 - para criar diretiva: ng g d nomedadiretiva ????
 
-<a>Principais recursos do Angular</a>
+<a><strong>Principais recursos do Angular</a></strong>
 - Two-way Data binding
 - Injeção de Dependências
 - Criação de diretivas
