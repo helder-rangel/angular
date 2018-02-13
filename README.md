@@ -1,4 +1,4 @@
-# angular
+# Angular
 Projeto Angular para a Disciplina Linguagem de Script
 <img src="https://angular.io/assets/images/logos/angular/angular.png">
 
@@ -70,14 +70,12 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 - para criar serviço: ng g s nomedoservico
 - para criar diretiva: ng g d nomedadiretiva ????
 
-Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
-
-# Principais recursos do Angular:
-Two-way Data binding
-Injeção de Dependências
-Criação de diretivas
-Modularização e reuso (Controllers, Services e Filters)
-Testabilidade
+<a>Principais recursos do Angular</a>
+- Two-way Data binding
+- Injeção de Dependências
+- Criação de diretivas
+- Modularização e reuso (Controllers, Services e Filters)
+- Testabilidade
 
 
 Two-way Data binding: É um recurso mágico do mesmo que permite a atualização em realtime que é feito através do objeto $scope
@@ -96,3 +94,5 @@ sua manutenção.
 Testabilidade: Angular é testado por um framework chamado jasmine
 Daria para escrever um artigo só para os detalhes da implementação
 de testes com Jasmine e suas diferentes abordagens de cobertura dentro de aplicações com o Angular.
+
+Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
