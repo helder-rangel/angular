@@ -72,6 +72,7 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 
 Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
 
+# Principais recursos do Angular:
 Two-way Data binding
 Injeção de Dependências
 Criação de diretivas
@@ -95,4 +96,3 @@ sua manutenção.
 Testabilidade: Angular é testado por um framework chamado jasmine
 Daria para escrever um artigo só para os detalhes da implementação
 de testes com Jasmine e suas diferentes abordagens de cobertura dentro de aplicações com o Angular.
-
