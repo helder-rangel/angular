@@ -70,6 +70,10 @@ Para criar o projeto, use o comando ng g new nomedoprojeto - que deve começar c
 - para criar serviço: ng g s nomedoservico
 - para criar diretiva: ng g d nomedadiretiva ????
 
+Foi utilizado o json-server com uma API Rest fake para interpretar requisições http e respondê-las. Para isso, instale o recurso:
+npm install json-server
+No caso, para rodar a funcionalidade deve-se executar o comando a seguir no mesmo local onde está o arquivo json.
+json-server --watch banco-de-dados.json
 <a><strong>Principais recursos do Angular</a></strong>
 - Two-way Data binding
 - Injeção de Dependências
