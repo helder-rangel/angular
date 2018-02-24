@@ -18,6 +18,7 @@ npm install -g @angular/cli
 
 
 <img src="http://helderrangel.com.br/imagens/visaogeral.png">
+<img src="http://helderrangel.com.br/imagens/telapeixeurbano.png">
 
 <a href=
 "https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy</a>
