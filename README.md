@@ -2,8 +2,9 @@
 Projeto Angular para a Disciplina Linguagem de Script
 <img src="https://angular.io/assets/images/logos/angular/angular.png">
 
-Foi implementada uma Single Page Aplication (SPA) utilizando o framework Angular. O projeto é baseado nos cursos on-line sobre Angular feitos nos sites loiane.training e udemy.com, entre dezembro de 2017 e fevereiro de 2018.
-
+Foi implementada uma Single Page Aplication (SPA) utilizando o framework Angular. O projeto é baseado nos cursos on-line sobre Angular feitos nos sites loiane.training e <a href=
+"https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy</a>, entre dezembro de 2017 e fevereiro de 2018.
+<img src="http://helderrangel.com.br/imgens/blocos-angular.png>
 Desenvolvido localmente, sendo o Windows 10, Nodejs 8.9.3 e NPM 5.6.0, Angular Cli 1.6.5 e o editor de scripts Visual Studio Code, com TypeScript 2.5.3. Foram utilizados o frameworks Bootstrap 4.0, bem como bibliotecas JavaScript como Jquery 3.3 e Hammer 2.0.8. O Angular tem como requisito recomendável a versão node 6.9.x ou  superior e npm 3.x.x ou superior. Para identificar as respectivas versões instaladas no sistema operacional basta usar os comandos node -v e npm -v, no terminal. 
 
 Ao utilizar algumas extensões do VSCode sua produtividade pode aumentar, automatizando a importação de módulos nativos do Angular, por exemplo. A sugestão é de instalar extensões como a de Balram Chavan - chamada de "Angular 2,4 and upcoming latest Typescript Snippets". Outra exensão útil é de John Papa, "Angular v2 TypeScript Snippets". "Auto Import", de steiates, importa automaticamente módulos do Angular, o único problema é que ele mistura os módulos importados do desenvolver com os do Angular. Os módulos do Angular devem ser listados no topo, logo abaixo, separados por uma linha, devem seguir listados os módulos do desenvolvedor. A extensão HTML snippets facilita o trabalho com HTML, já o "vscode-icons", de Roberto Huertas, identifica cada um dos tipos de arquivos usados nos projetos.
@@ -16,10 +17,9 @@ npm install -g typescript
 
 npm install -g @angular/cli
 
-https://gist.github.com/5b3e69fc0b0e3875ae9dadf3728b0c2b.git
 
-<a href=
-"https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy</a>
+
+
 
 Para o curso de Loiane Groner você vai precisar instalar Bootstrap, Materialize, Hammer e JQuery. Logo a seguir sugiro que você faça algo diferente para outros projetos que envolvam Bootstrap, mas para o curso de Loiane.training execute os seguintes comandos no terminal de seu sistema opercional:
 
