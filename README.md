@@ -74,99 +74,7 @@ Foi utilizado o json-server com uma API Rest fake para interpretar requisições
 npm install json-server
 No caso, para rodar a funcionalidade deve-se executar o comando a seguir no mesmo local onde está o arquivo json.
 json-server --watch banco-de-dados.json
-Segue o conteúdo do banco-de-dados.json
-{ 
-	"ofertas": [
-		{
-			"id": 1,
-			"categoria": "restaurante",
-			"titulo": "Super Burger",
-			"descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
-			"anunciante": "Original Burger",
-			"valor": 29.90,
-			"destaque": true,
-			"imagens": [
-				{"url": "/assets/ofertas/1/img1.jpg"},
-				{"url": "/assets/ofertas/1/img2.jpg"},
-				{"url": "/assets/ofertas/1/img3.jpg"},
-				{"url": "/assets/ofertas/1/img4.jpg"}
-			]
-		},
-		{
-			"id": 2,
-			"categoria": "restaurante",
-			"titulo": "Cozinha Mexicana",
-			"descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
-			"anunciante": "Mexicana",
-			"valor": 32.90,
-			"destaque": true,
-			"imagens": [
-				{"url": "/assets/ofertas/2/img1.jpg"},
-				{"url": "/assets/ofertas/2/img2.jpg"},
-				{"url": "/assets/ofertas/2/img3.jpg"},
-				{"url": "/assets/ofertas/2/img4.jpg"}
-			]
-		},
-		{
-			"id": 3,
-			"categoria": "restaurante",
-			"titulo": "Pizzas Grandes",
-			"descricao_oferta": "Pizza Grande, Mussarela, Marguerita ou outras!",
-			"anunciante": "Nossa Pizza",
-			"valor": 21.90,
-			"destaque": false,
-			"imagens": [
-				{"url": "/assets/ofertas/3/img1.jpg"},
-				{"url": "/assets/ofertas/3/img2.jpg"},
-				{"url": "/assets/ofertas/3/img3.jpg"},
-				{"url": "/assets/ofertas/3/img4.jpg"}
-			]
-		},
-		{
-			"id": 4,
-			"categoria": "diversao",
-			"titulo": "Estância das águas",
-			"descricao_oferta": "Diversão garantida com piscinas, trilhas e muito mais.",
-			"anunciante": "Estância das águas",
-			"valor": 31.90,
-			"destaque": true,
-			"imagens": [
-				{"url": "/assets/ofertas/4/img1.jpg"},
-				{"url": "/assets/ofertas/4/img2.jpg"},
-				{"url": "/assets/ofertas/4/img3.jpg"},
-				{"url": "/assets/ofertas/4/img4.jpg"},
-				{"url": "/assets/ofertas/4/img5.jpg"},
-				{"url": "/assets/ofertas/4/img6.jpg"}
-			]
-		},
-		{
-			"id": 5,
-			"categoria": "diversao",
-			"titulo": "Kart",
-			"descricao_oferta": "Bateria de Kart de 30 minutos.",
-			"anunciante": "Speed Kart",
-			"valor": 54.90,
-			"destaque": false,
-			"imagens": [
-				{"url": "/assets/ofertas/5/img1.jpg"},
-				{"url": "/assets/ofertas/5/img2.jpg"}
-			]
-		},
-		{
-			"id": 6,
-			"categoria": "diversao",
-			"titulo": "Academia de tiro",
-			"descricao_oferta": "Sessão de tiro dinâmico com Instrutor, Estande, Alvo e Equipamentos.",
-			"anunciante": "Academia de Tiro",
-			"valor": 89.90,
-			"destaque": false,
-			"imagens": [
-				{"url": "/assets/ofertas/6/img1.jpg"},
-				{"url": "/assets/ofertas/6/img2.jpg"}
-			]
-		}	
-	]
-}
+
 <a><strong>Principais recursos do Angular</a></strong>
 - Two-way Data binding
 - Injeção de Dependências
@@ -175,8 +83,7 @@ Segue o conteúdo do banco-de-dados.json
 - Testabilidade
 
 
-Two-way Data binding: É um recurso mágico do mesmo que permite a atualização em realtime que é feito através do objeto $scope
- , qualquer interação na view será refletida no modelo e assim sucessivamente
+Two-way Data binding: É um recurso mágico do mesmo que permite a atualização em realtime que é feito através do objeto [()], chamada de caixa de banana, qualquer interação na view será refletida no modelo e assim sucessivamente
 
 Injeção de dependência: Sua função é de separar responsabilidades através da aplicação service , para que a função fique
 bem definida , de fácil manutenção e testáveis.
@@ -185,13 +92,6 @@ Criação de diretivas: Permite criar diversas indicações como ele próprio é
 
 Modularização e reuso: Usando controllers , Services e Filters é possível transformar o resultado de uma expressão,
 aplicando algum tipo de formatação ou restrição de dados.
-Exemplo: Adicionar um controlador geral que restringe um outro controlador , sendo útil para códigos complexos , facilitando
-sua manutenção.
-
-Testabilidade: Angular é testado por um framework chamado jasmine
-Daria para escrever um artigo só para os detalhes da implementação
-de testes com Jasmine e suas diferentes abordagens de cobertura dentro de aplicações com o Angular.
-
-
+Exemplo: validação de formulários de compra, checando se foram informados um número mínimo de caracteres.
 
 Ler a documentação pode tornar seu trabalho mais produtivo. Conheça melhor os recursos do Angular/cli no site https://github.com/angular/angular-cli/wiki/stories.
