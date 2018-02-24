@@ -16,9 +16,7 @@ npm install -g typescript
 
 npm install -g @angular/cli
 
-<script src="https://gist.github.com/helder-rangel/5b3e69fc0b0e3875ae9dadf3728b0c2b.js"></script>
-<img src="ht<script src="https://gist.github.com/helder-rangel/5b3e69fc0b0e3875ae9dadf3728b0c2b.js"></script>tp://helderrangel.com.br/imagens/visaogeral.png">
-<img src="http://helderrangel.com.br/imagens/telapeixeurbano.png">
+https://gist.github.com/5b3e69fc0b0e3875ae9dadf3728b0c2b.git
 
 <a href=
 "https://www.udemy.com/curso-de-desenvolvimento-web-com-es6-typescript-e-angular-4/learn/v4/overview">Curso Udemy</a>
